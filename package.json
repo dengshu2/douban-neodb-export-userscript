@@ -1,0 +1,10 @@
+{
+  "name": "douban-neodb-export-userscript",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Export Douban interests to a NeoDB-compatible Excel workbook.",
+  "scripts": {
+    "test": "node --check douban-neodb-export.user.js && node scripts/validate-userscript.mjs"
+  },
+  "license": "MIT"
+}
